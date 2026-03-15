@@ -8,7 +8,7 @@ This overlay presents the same information in a cleaner, more readable format so
 - If HDR is active
 - What bitrate Netflix is delivering
 
-![Overlay Screenshot](images/screenshot.png)
+<img alt="Screenshot" src="images/Screenshot.png" />
 
 <details>
 <summary><strong>What it shows</strong></summary>
