@@ -2,6 +2,8 @@
 // @name         Netflix Debug Overlay
 // @namespace    https://github.com/nicopasla/Netflix-Debug-Overlay
 // @version      1.0.0
+// @license      MIT
+// @author       nicopasla
 // @description  Click the button or press Ctrl+Shift+Alt+D to activate. Read-only, does not modify Netflix in any way.
 // @match        https://www.netflix.com/*
 // @grant        none
