@@ -4,6 +4,8 @@ A simple userscript that replaces Netflix debug panel with a clean, more clear o
 
 Used to check to see if Netflix is outputting the quality that you want.
 
+<img width="296" height="731" alt="Screenshot" src="https://github.com/user-attachments/assets/b90e6cce-fc86-40f6-bef7-165ef7450025" />
+
 **VIDEO**
 - Resolution
 - Bitrate (playing & buffering)
