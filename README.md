@@ -1,12 +1,19 @@
 # Netflix Debug Overlay
 
-A simple userscript that replaces Netflix debug panel with a clean, more clear overlay.
+Netflix's built-in debug panel (`Ctrl+Alt+Shift+D`) is cluttered and difficult to read.
 
-Used to check to see if Netflix is outputting the quality that you want.
+This overlay presents the same information in a cleaner, more readable format so you can quickly verify:
 
-<img width="296" height="731" alt="Screenshot" src="https://github.com/user-attachments/assets/b90e6cce-fc86-40f6-bef7-165ef7450025" />
+- If you're actually getting what you're supposed to get
+- If HDR is active
+- What bitrate Netflix is delivering
 
-**VIDEO**
+![Overlay Screenshot](images/screenshot.png)
+
+<details>
+<summary><strong>What it shows</strong></summary>
+
+### VIDEO
 - Resolution
 - Bitrate (playing & buffering)
 - Buffer size
@@ -15,50 +22,47 @@ Used to check to see if Netflix is outputting the quality that you want.
 - VMAF score (playing / buffering)
 - HDR support with type if available
 - ABR usage
- 
-**AUDIO**
+
+### AUDIO
 - Bitrate
 - Channels
 - Buffer size
 - Codec
 - Language
  
-**NETWORK**
+### NETWORK
 - Throughput
 - CDN hostname
 - DRM system (Widevine, PlayReady, FairPlay)
 - DRM max resolution
  
-**PLAYBACK**
+### PLAYBACK
 - Dropped frames / total frames
 - Volume
 - Position / duration
-  
+
+</details>
+
 ## Disclaimer
- 
-This script is **read-only**. It only reads data that Netflix already exposes through their own built-in debug panel. It does not modify Netflix, intercept requests, or change anything about your playback.
- 
-**This script cannot:**
-- Unlock 4K, HDR, or higher resolutions
-- Change your audio or video quality
-- Bypass DRM restrictions
+
+This script is `read-only`. It only reads data that Netflix already exposes through their own built-in debug panel. It does not modify Netflix, intercept requests, or change anything about your playback.
 
 ## Installation
 
 1. Install [Tampermonkey](https://www.tampermonkey.net/) or [Violentmonkey](https://violentmonkey.github.io/) for your browser
-2. Click **Raw** on `netflix-debug-overlay.user.js` and Tampermonkey/Violentmonkey will prompt you to install it
+2. [Install the script](https://raw.githubusercontent.com/nicopasla/Netflix-Debug-Overlay/main/netflix-debug-overlay.user.js) Your userscript manager will prompt you to install it.
 
 ## Usage
 
 1. Go to any Netflix watch page
-2. Click the Show Debug button
+2. Click the `Show Debug` button
 
 ## Notes
 
 - The overlay only appears on `/watch` pages
 - The overlay is not visible when fullscreen
 - The overlay updates every second
-- Use Netflix Sans font when available
+- Uses Netflix Sans font when available
 
 ## License
 
